@@ -7,12 +7,12 @@ This provides a simple solution to this problem, all wrapped in a single staticl
 # Installation
 
 ```bash
-cargo install --git https://github.com/russelltg/web-mic
+cargo install --git https://github.com/kotleni/web-mic-linux
 ```
 
 # Usage
 
-Run `web-mic`, and connect to it on your phone with `https://<your ip>:8000`. Note the `s`--it must be https. 
+Run `web-mic` (or `~/.cargo/bin/web-mic-linux`), and connect to it on your phone with `https://<your ip>:8000`. Note the `s`--it must be https. 
 You will see a security warning, choose "advanced" then "proceed to xxx". If you are curious about this warning,
 see [below](#TLS-Requirement)
 
