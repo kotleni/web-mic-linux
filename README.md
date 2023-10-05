@@ -1,5 +1,5 @@
 # web-mic-linux
-My fork of the web microphone, which has various improvements.
+My fork of the [web-mic](https://github.com/russelltg/web-mic), which has various improvements.
 Ever wished you could use your phone mic from your linux computer (exposed as a PulseAudio source)?
 This provides a simple solution to this problem, all wrapped in a single staticly-linked binary written in rust without unsafe code.
 
