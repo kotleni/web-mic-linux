@@ -13,11 +13,11 @@ Run `web-mic` (or `~/.cargo/bin/web-mic-linux`), and connect to it on your phone
 You will see a security warning, choose "advanced" then "proceed to xxx".
 
 # Limitations
-1. TLS requirement
+1. TLS requirement<br>
 The Web Audio APIs [_only work in secure contexts_](https://developer.mozilla.org/en-US/docs/Web/API/AudioWorkletNode), so it runs using self-signed certificates. 
 However, these certificates are cached (in `~/.cache/web_mic`), so you should only have to bypass the security warning once.
-2. Focus
+2. Focus<br>
 At least on android chrome, it seems to throttle the capture worker when the phone is locked or similar, so you need to disable the screen timeout.
 I personally have the setting in developer settings turned on to not timeout the screen when its plugged in.
-3. Latency
+3. Latency<br>
 This app should obviously not be used when low latency is required. In my limited test, I got around 100ms of latency, which is fine for VoIP.
